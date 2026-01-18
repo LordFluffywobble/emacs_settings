@@ -21,4 +21,5 @@
 (global-set-key (kbd "C-c m p") 'mc/mark-previous-like-this) ; Mark previous occurrence
 (global-set-key (kbd "C-c m a") 'mc/mark-all-like-this) ; Mark all occurrences in buffer
 (global-set-key (kbd "C-<mouse-1>") 'mc/toggle-cursor-on-click)
-
+(global-display-line-numbers-mode t)
+(setq display-line-numbers-type 'relative)
